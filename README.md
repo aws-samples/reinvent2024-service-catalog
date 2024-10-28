@@ -63,7 +63,7 @@ Use the following steps to configure the environment:
 
 1. Create an Amazon S3 bucket.(https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
 
-2. Upload your own service catalog knowledge dataset to S3 bucket or use the one provided in this repository (service-catalog-dataset.csv).
+2. Upload your own service catalog knowledge dataset to S3 bucket or use the one provided in this repository (service-catalog-dataset.xls).
 
 3. Set up an Amazon Bedrock knowledge base using your Amazon S3 bucket as the data source, and an Amazon OpenSearch Serverless vector search collection as a vector store.(https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-create.html)
 
