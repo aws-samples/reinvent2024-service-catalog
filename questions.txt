@@ -1,0 +1,10 @@
+
+The following questions can be asked to the chatbot:
+
+1. I just joined the company. How do I enroll for benefits?
+
+2. That's good. What other benefits are available to me?
+
+3. sure, I want to sign for 401K.
+
+4. ok, I also want to apply for Corporate Credit Card.

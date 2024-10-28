@@ -1,0 +1,4 @@
+boto3
+jq
+langchain
+streamlit == 1.38.0
