@@ -24,7 +24,7 @@ For this walkthrough, complete the following prerequisites using the best practi
 
 4. Configure a security group for EC2 to allow outbound access to Amazon Bedrock endpoints only.
 
-5. Configure an IAM role for EC2 instance using least-privilege principle to allow access Amazon Bedrock runtime and agent runtime API's.
+5. Configure an IAM role for EC2 instance using least-privilege principle to allow access to Amazon Bedrock runtime and agent runtime API's.
 
 Here is an example of IAM policy to provide access to Amazon Bedrock APIs.
 ```
@@ -69,7 +69,7 @@ Use the following steps to configure the environment:
 
    After setting up, make a note of Knowledge Base ID.
 
-4. Connect to EC2 instance using [Fleet Manager Reote Desktop](https://docs.aws.amazon.com/systems-manager/latest/userguide/fleet-manager-remote-desktop-connections.html)
+4. Connect to EC2 instance using [Fleet Manager Remote Desktop](https://docs.aws.amazon.com/systems-manager/latest/userguide/fleet-manager-remote-desktop-connections.html)
 
 5. Create a new python virtual environment and activate it.(https://docs.python.org/3/library/venv.html#module-venv)
 
@@ -80,7 +80,7 @@ source env/bin/activate
 6. Clone the GitHub repository to your local machine.
 
 ```
-git clone https://gitlab.aws.dev/reinvent2024-service-catalog.git
+git clone https://github.com/aws-samples/reinvent2024-service-catalog.git
 cd reinvent2024-service-catalog
 ```
 
@@ -90,7 +90,7 @@ cd reinvent2024-service-catalog
 pip install -r requirements.txt
 ```
 
-8. Configure the necessary environment variables (AWS_REGION, BEDROCK_KNOWLEDGE_BASES_ID - use the values from step 3).
+8. Configure the necessary environment variables (AWS_REGION, BEDROCK_KNOWLEDGE_BASES_ID - use the value from step 3).
 
 ```
 AWS_REGION=us-east-1
